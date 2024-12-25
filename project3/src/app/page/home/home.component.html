@@ -1,0 +1,18 @@
+<!-- <div class="head"> -->
+    <!-- <h1>INDIAN TOURISM</h1> -->
+<!-- </div> -->
+<!-- <app-navbar></app-navbar> -->
+ <app-corosel></app-corosel> 
+<div class="imf">owl corousel</div>
+<!-- <h1>{{data.title}}</h1> -->
+<owl-carousel-o [options]="customOptions">
+ 
+  <ng-container *ngFor="let slide of slidesStore">
+    <ng-template carouselSlide [id].tostring()="slide.id">
+      <img height="100" width="100" class="nm" [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
+      
+    </ng-template>
+  </ng-container>
+
+</owl-carousel-o>
+<div>Some tags after</div>

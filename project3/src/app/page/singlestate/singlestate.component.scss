@@ -1,0 +1,54 @@
+.ppp{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9; /* Soft background color */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;  /* Centers the container horizontally */
+    align-items: center;      /* Centers the container vertically */
+    height: 100vh;            /* Full viewport height */
+    text-align: center;       /* Centers text inside container */
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(128, 0, 0, 0.1);
+    max-width: 1500px;
+    width: 100%;
+    margin: 100px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #7f8c8d;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
